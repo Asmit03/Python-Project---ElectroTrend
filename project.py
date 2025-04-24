@@ -145,7 +145,7 @@ plt.tight_layout()
 plt.show()
 
 # git
-
+# git - man
 # git - sak
 # git - ary
 # git-clone - https://github.com/abheeshakespeare/Python-Project---ElectroTrend.git
