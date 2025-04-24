@@ -124,7 +124,7 @@ plt.show()
 
 # Objective 5: Counties with 100% EVs
 top_ev_counties = df[df['Percent Electric Vehicles'] == 100]['County'].value_counts().head(10)
-
+#fig
 plt.figure(figsize=(10,6))
 sns.barplot(x=top_ev_counties.values, y=top_ev_counties.index, palette='Greens',)
 plt.title("Top Counties with 100% EV Concentration")
@@ -143,7 +143,11 @@ plt.grid(True)
 plt.legend(title='Vehicle Use')
 plt.tight_layout()
 plt.show()
+
 # git
+
+# git - sak
+
 # git-clone - https://github.com/abheeshakespeare/Python-Project---ElectroTrend.git
 # git-change - ujj
 # git-change - pri
