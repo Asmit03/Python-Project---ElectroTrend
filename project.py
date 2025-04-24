@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
-
+#read csv file
 df=pd.read_csv('CA2\Electric_Vehicle_Population_Size_History_By_County.csv')
 
 
